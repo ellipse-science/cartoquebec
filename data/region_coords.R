@@ -16,5 +16,5 @@ region_coords <- list(
   "region" = c("long_min" = -79.8, "long_max" = -65, "lat_min" = 45.0, "lat_max" = 52.5),
   "mtl" = c("long_min" = -74, "long_max" = -73.45, "lat_min" = 45.3975, "lat_max" = 45.70),
   "qc" = c("long_min" = -72, "long_max" = -70.7, "lat_min" = 46.6, "lat_max" = 47.28),
-  "rmr" = c("long_min" = -74.1, "long_max" = -73.2, "lat_min" = 45.25, "lat_max" = 45.88)
+  "rmr" = c("long_min" = -74.35, "long_max" = -73, "lat_min" = 45, "lat_max" = 46)
 )

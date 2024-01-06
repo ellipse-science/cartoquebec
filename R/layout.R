@@ -11,11 +11,12 @@
 #' @export
 #' @examples
 #' maps_layout_classic(map_all, map_mtl, map_qc)
-maps_layout_classic <- function(map_all, map_mtl, map_qc) {
+maps_layout_classic <- function(map_all, map_mtl, map_rmr, map_qc) {
   layout <- "AAAABB
+             AAAABB
              AAAABB"
 
-  combined_map <- (map_all + (map_mtl / map_qc) +
+  combined_map <- (map_all + (map_mtl / map_rmr / map_qc) +
                      patchwork::plot_layout(design = layout)) &
     ggplot2::theme(plot.margin = ggplot2::margin(0, 0, 0, 0, "mm"))
 

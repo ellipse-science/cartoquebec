@@ -4,7 +4,7 @@
 \alias{maps_layout_classic}
 \title{Create a Classic Map Layout for Quebec}
 \usage{
-maps_layout_classic(map_all, map_mtl, map_qc)
+maps_layout_classic(map_all, map_mtl, map_rmr, map_qc)
 }
 \arguments{
 \item{map_all}{A ggplot object representing the full Quebec map.}
