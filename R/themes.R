@@ -10,13 +10,14 @@
 #' ggplot(data) +
 #'   geom_sf() +
 #'   theme_map_minimal(legend = TRUE)
-theme_map_minimal <- function(legend = FALSE) {
+theme_map_minimal <- function(legend = FALSE, background_color = NULL) {
   theme_minimal() +
     theme(
       axis.title = element_blank(),
       axis.text = element_blank(),
       axis.ticks = element_blank(),
       axis.line = element_blank(),
+      panel.background = element_rect(fill = background_color, color = NA),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
       panel.border = element_blank(),

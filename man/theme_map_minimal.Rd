@@ -4,7 +4,7 @@
 \alias{theme_map_minimal}
 \title{Apply a clean map theme to ggplot objects}
 \usage{
-theme_map_minimal(legend = FALSE)
+theme_map_minimal(legend = FALSE, background_color = NULL)
 }
 \arguments{
 \item{legend}{logical; if TRUE, includes the legend at the bottom}
