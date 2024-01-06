@@ -21,7 +21,7 @@ theme_map_minimal <- function(legend = FALSE, background_color = NULL) {
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
       panel.border = element_blank(),
-      plot.margin = if (legend) unit(c(0, 0, 5, 0), "cm") else unit(c(0, 0, 0, 0), "cm"),
+      plot.margin = if (legend) unit(c(0, 0, 5, 0), units = "cm") else unit(c(0, 0, 0, 0), units = "cm"),
       legend.position = if (legend) "bottom" else "none"
     )
 }
