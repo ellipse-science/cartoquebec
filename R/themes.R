@@ -9,8 +9,8 @@
 #' @examples
 #' ggplot(data) +
 #'   geom_sf() +
-#'   theme_map_clean(legend = TRUE)
-theme_map_clean <- function(legend = FALSE) {
+#'   theme_map_minimal(legend = TRUE)
+theme_map_minimal <- function(legend = FALSE) {
   theme_minimal() +
     theme(
       axis.title = element_blank(),
